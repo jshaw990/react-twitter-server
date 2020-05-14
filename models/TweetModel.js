@@ -5,9 +5,9 @@ mongoose.connect("mongodb://localhost:27017/twitter", {
     useNewUrlParser: true
 })
 
-const Scehma = mongoose.Schema
+const Schema = mongoose.Schema
 
-const tweetSchema = new Schema ({
+const tweetSchema = new Schema({
     tweet: String,
     author: String
 })

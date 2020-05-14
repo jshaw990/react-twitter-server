@@ -1,8 +1,8 @@
 const express = require("express")
-const { ApollogServer } = require("apollo-server-express")
+const { ApolloServer } = require("apollo-server-express")
 
 const typeDefs = require("./api/Types")
-const resolvers = require("./api/Resilvers")
+const resolvers = require("./api/Resolvers")
 
 const app = express()
 const port = process.env.PORT || 5000
