@@ -1,0 +1,27 @@
+{
+  "name": "react-twitter-server",
+  "version": "1.0.0",
+  "description": "Apollo GraphQL server for React Twitter clone",
+  "main": "index.js",
+  "dependencies": {
+    "apollo-server-express": "^2.5.0",
+    "express": "^4.17.0",
+    "graphql": "^14.3.0",
+    "graphql-tools": "^4.0.4",
+    "mongoose": "^5.5.9"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jshaw990/react-twitter-server.git"
+  },
+  "author": "Jayden Shaw",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jshaw990/react-twitter-server/issues"
+  },
+  "homepage": "https://github.com/jshaw990/react-twitter-server#readme"
+}
